@@ -95,11 +95,11 @@ class Game {
     this.finished = false;
 
     this.targets = [
-      new Target(0.4534, 0.6381, 'This is Kaapelitehdas and there is a hackathon just about to start. I wonder what will happen.'),
+      new Target(0.4534, 0.6381, 'This is Kaapelitehdas and there is a hackathon just about to start. It is my first, I wonder what will happen.'),
       new Target(0.1770, 0.1908, 'Otaniemi campus is a prime spot for spotting birds and odd items and traditions.'),
       new Target(0.6055, 0.4363, 'The analogue clocks on the railway station never run properly, giving the impression of late sunset.'),
       new Target(0.9020, 0.1312, 'Helsinki is spotted with little forests where all kinds of creatures are free to mind their own business.'),
-      new Target(0.8076, 0.9456, 'Cruise ships pass the impossibly narrow strait in Suomenlinna. Passengers come on deck and wave at peoople.'),
+      new Target(0.8076, 0.9456, 'Cruise ships pass the impossibly narrow strait in Suomenlinna. Passengers come on deck and wave at people.'),
     ];
 
     this.targets[0].card.addImage(loadImage('./media/hackathon.png'));
